@@ -15,4 +15,15 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
+/* Header Styling */
+header {
+    background: linear-gradient(135deg, #f39c12, #ffda79);
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 
+header h1 {
+    color: white;
+    font-weight: 500;
+}
