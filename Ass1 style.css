@@ -84,3 +84,20 @@ table th {
     background-color: #f39c12;
     color: white;
 }
+/* Gallery Styling */
+.gallery {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.gallery img {
+    width: calc(33.33% - 10px);
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
