@@ -27,3 +27,27 @@ header h1 {
     color: white;
     font-weight: 500;
 }
+nav ul {
+    display: flex; /* Use Flexbox for horizontal layout */
+    justify-content: center; /* Center items horizontally */
+    gap: 20px; /* Space between the items */
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+nav ul li {
+    display: inline; /* Keep <li> inline */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #ffda79; /* Add hover effect */
+}
