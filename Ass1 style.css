@@ -67,3 +67,20 @@ p {
     line-height: 1.6;
     margin-bottom: 30px;
 }
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+table th, table td {
+    padding: 12px 20px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #f39c12;
+    color: white;
+}
