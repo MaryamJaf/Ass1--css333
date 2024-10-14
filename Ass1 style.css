@@ -9,3 +9,10 @@ body {
     background-color: #f9f9f9;
     color: #333;
 }
+/* Container to add spacing */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
